@@ -15,7 +15,7 @@ public class TestmorteRespawn : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.rigidbody != null && collision.rigidbody.tag == "Affungo" || collision.rigidbody != null && collision.rigidbody.tag == "Trappola")
+        if (collision.rigidbody != null && collision.rigidbody.tag == "Affungo" || collision.gameObject.tag == "Trappole")
         {
             gameObject.transform.position = checkPoint;
             nMorti++;

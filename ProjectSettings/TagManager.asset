@@ -7,6 +7,9 @@ TagManager:
   - Affungo
   - CheckPoint
   - Roccetta
+  - Trappole
+  - Piach
+  - Mostrofio
   layers:
   - Default
   - TransparentFX

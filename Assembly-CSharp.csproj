@@ -66,7 +66,9 @@
     <Compile Include="Assets\Scripts\AffungoBehaviour.cs" />
     <Compile Include="Assets\Scripts\CameraBheaviour.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scripts\Expolsion.cs" />
     <Compile Include="Assets\Scripts\Movimenti.cs" />
+    <Compile Include="Assets\Scripts\PiattaformaMobile.cs" />
     <Compile Include="Assets\Scripts\TestmorteRespawn.cs" />
     <None Include="Assets\Nature_pixel_art_assets\pixel_snapping_README.txt" />
     <Reference Include="Unity.Timeline.Editor">

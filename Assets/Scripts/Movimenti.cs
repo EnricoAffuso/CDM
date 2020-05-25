@@ -52,7 +52,12 @@ public class Movimenti : MonoBehaviour
         }
 
         anim.SetFloat("isMoving", Mathf.Abs(movimentoOrizzontale));
+        if (Input.GetKey(KeyCode.P))
+        {
+            GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(167,12);
+        }
     }
+
 
     void salto()
     {

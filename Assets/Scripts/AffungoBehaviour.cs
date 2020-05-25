@@ -11,8 +11,6 @@ public class AffungoBehaviour : MonoBehaviour
     [SerializeField]
     GameObject limiteDestro;
 
-    bool colpito = false;
-    
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject == limiteSinistro || collider.gameObject == limiteDestro) 
