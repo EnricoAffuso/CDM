@@ -1,0 +1,10 @@
+ .vs/
+        Assembly-CSharp.csproj
+        Assets/
+        Library/
+        Logs/
+        Packages/
+        ProjectSettings/
+        SuperRavaBros2.0.sln
+        Temp/
+        obj/
